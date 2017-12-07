@@ -1,3 +1,17 @@
+/*Global Body Rules*/
+body{
+  color: seashell;
+  background-color: black;
+  font-family: Helvetica;
+  font-size: 22px;
+  opacity: .9;
+  text-align: center;
+}
+
+div{
+    border: 1px solid white;
+}
+
 /*Header Styling Rules */
 /*Tags*/
 
