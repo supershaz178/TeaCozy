@@ -6,6 +6,8 @@ body{
   font-size: 22px;
   opacity: .9;
   text-align: center;
+  margin: 0px;
+  padding: 0px;
 }
 
 div{
@@ -14,10 +16,33 @@ div{
 
 /*Header Styling Rules */
 /*Tags*/
+header{
+  display: flex;
+  position: fixed;
+  background-color: inherit;
+  height: 69px;
+  width: 100%;
+  border-bottom: 1px solid seashell;
+  align-items: center;
+  z-index: 1;
+}
 
+a{
+  text-decoration: underline;
+  color: inherit;
+}
+
+nav{
+  text-align: right;
+  width: 100%;
+}
 /*Classes*/
 
 /*IDs*/
+#logo{
+  height: 50px;
+  margin-left: 10px;
+}
 
 /*Body Styling Rules*/
 /*Tags*/
