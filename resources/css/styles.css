@@ -4,8 +4,8 @@ body{
   background-color: black;
   font-family: Helvetica;
   font-size: 22px;
-  opacity: .9;
   text-align: center;
+  opacity: .9;
   margin: 0px;
   padding: 0px;
 }
@@ -35,6 +35,7 @@ a{
 nav{
   text-align: right;
   width: 100%;
+  margin-right: 10px;
 }
 /*Classes*/
 
@@ -48,9 +49,21 @@ nav{
 /*Tags*/
 
 /*Classes*/
+.mission{
+  display: flex;
+  padding-top: 69px;
+  margin: auto;
+  align-items: center;
+  background-image: url("../images/img-mission-background.jpg");
+  height: 700px;
+  width: 1200px;
+}
 
 /*IDs*/
-
+#missionStatement{
+  width: 1200px;
+  background-color: black;
+}
 /*Footer Styling Rules*/
 /*Tags*/
 
