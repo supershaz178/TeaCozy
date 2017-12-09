@@ -10,10 +10,10 @@ body{
   padding: 0px;
 }
 
-div{
+/*div{
     border: 1px solid white;
 }
-
+*/
 /*Header Styling Rules */
 /*Tags*/
 header{
@@ -68,6 +68,11 @@ nav{
   flex-wrap: wrap;
 }
 
+.menu p{
+  font-weight: bold;
+  margin: 10px 0px;
+}
+
 .menuPics{
   display: flex;
   flex-direction: column;
@@ -78,9 +83,27 @@ nav{
   margin: auto 10px;
 }
 
-.menu p{
-  font-weight: bold;
-  margin: 10px 0px;
+.locations{
+  display: flex;
+  flex-wrap: wrap;
+  height: 500px;
+  width: 1200px;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  background-image: url("../images/img-locations-background.jpg");
+}
+
+.locations div{
+  width: 300px;
+  margin: 15px auto;
+  background-color: black;
+  margin: auto 20px;
+  opacity: 1;
+}
+
+.info{
+  height: 200px;
 }
 
 /*IDs*/
@@ -94,9 +117,19 @@ nav{
   width: 1000px;
   align-items: center;
 }
+
+#locationTitle{
+  font-weight: bold;
+  width: inherit;
+  margin: 0px;
+}
+
 /*Footer Styling Rules*/
 /*Tags*/
-
+footer{
+  margin: auto 20px;
+  text-align: left;
+}
 /*Classes*/
 
 /*IDs*/
